@@ -1,0 +1,19 @@
+/target/
+
+# eclipse classpath
+.classpath
+
+# eclipse project
+.project
+
+# eclipse settings
+.settings
+
+# compiled class of bin path
+bin/
+
+#maven project un-neccessary folder and files
+target/
+src/site/
+/target/classes
+
