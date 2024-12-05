@@ -9,9 +9,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.servlet.ServletContext;
-
 import com.khadri.mart.grosary.form.GrosaryForm;
+
+import jakarta.servlet.ServletContext;
 
 public class GrosaryDao {
 	private Connection con;

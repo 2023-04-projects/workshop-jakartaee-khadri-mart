@@ -4,13 +4,13 @@ package com.khadri.mart.grosary.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 import com.khadri.mart.grosary.dao.GrosaryDao;
 import com.khadri.mart.grosary.form.GrosaryForm;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class AddGrosaryServlet extends HttpServlet {
 
