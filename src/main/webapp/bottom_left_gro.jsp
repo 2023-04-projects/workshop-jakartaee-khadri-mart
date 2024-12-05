@@ -16,21 +16,21 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td><a href="grosary_add" target="bottom_right">groAdd</a></td>
+				<td><a href="grosary_add" target="bottom_right">Add</a></td>
 			</tr>
 			<tr>
-				<td><a href="grosary_modify" target="bottom_right">groModify</a></td>
+				<td><a href="grosary_modify" target="bottom_right">Modify</a></td>
 			</tr>
 			<tr>
-				<td><a href="grosary_view" target="bottom_right">groView</a></td>
+				<td><a href="grosary_view" target="bottom_right">View</a></td>
 			</tr>
 
 			<tr>
 				<td><a href="grosary_viewAll"
-					target="bottom_right">groViewAll</a></td>
+					target="bottom_right">ViewAll</a></td>
 			</tr>
 			<tr>
-				<td><a href="grosary_delete" target="bottom_right">groDelete</a></td>
+				<td><a href="grosary_delete" target="bottom_right">Delete</a></td>
 			</tr>
 		</tbody>
 	</table>
