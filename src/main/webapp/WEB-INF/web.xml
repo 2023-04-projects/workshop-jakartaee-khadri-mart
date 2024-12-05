@@ -87,6 +87,79 @@
 		<servlet-name>jspDelete</servlet-name>
 		<url-pattern>/grosary_delete</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>cloadd</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.AddClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cloadd</servlet-name>
+		<url-pattern>/cloadd</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesmodifyservlet</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.ModifyClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesmodifyservlet</servlet-name>
+		<url-pattern>/clothesmodify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesdelete</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.DeleteClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesdelete</servlet-name>
+		<url-pattern>/clodelete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesaddJsp</servlet-name>
+		<jsp-file>/clothes_add.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesaddJsp</servlet-name>
+		<url-pattern>/clothes_add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesmodifyJsp</servlet-name>
+		<jsp-file>/clothes_modify.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesmodifyJsp</servlet-name>
+		<url-pattern>/clothes_modify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesviewJsp</servlet-name>
+		<jsp-file>/clothes_view.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesviewJsp</servlet-name>
+		<url-pattern>/clothes_view</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesviewallJsp</servlet-name>
+		<jsp-file>/clothes_viewAll.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesviewallJsp</servlet-name>
+		<url-pattern>/clothes_viewAll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesdeletepageJsp</servlet-name>
+		<jsp-file>/clothes_delete_page.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesdeletepageJsp</servlet-name>
+		<url-pattern>/clothes_delete_page</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesDeletejsp</servlet-name>
+		<jsp-file>/clothes_delete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesDeletejsp</servlet-name>
+		<url-pattern>/clothes_delete</url-pattern>
+	</servlet-mapping>
 	<context-param>
 		<param-name>Url</param-name>
 		<param-value>jdbc:mysql://localhost:3306/2024_batch</param-value>
