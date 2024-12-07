@@ -87,9 +87,6 @@
 		<servlet-name>jspDelete</servlet-name>
 		<url-pattern>/grosary_delete</url-pattern>
 	</servlet-mapping>
-	
-	 
-	 
 	<servlet>
 		<servlet-name>fruitsaddservlet</servlet-name>
 		<servlet-class>com.khadri.mart.fruits.servlet.FruitsAddServlet</servlet-class>
@@ -154,6 +151,152 @@
 		<servlet-name>fruitsdeleteJsp</servlet-name>
 		<url-pattern>/fruits_delete</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegadd</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.AddVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegadd</servlet-name>
+		<url-pattern>/vegAdd</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegaddJsp</servlet-name>
+		<jsp-file>/veg_add.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegaddJsp</servlet-name>
+		<url-pattern>/veg_add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>modify</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.ModifyVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modify</servlet-name>
+		<url-pattern>/vegModify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegmodifyJsp</servlet-name>
+		<jsp-file>/veg_modify.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegmodifyJsp</servlet-name>
+		<url-pattern>/veg_modify</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vegviewJsp</servlet-name>
+		<jsp-file>/veg_view.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegviewJsp</servlet-name>
+		<url-pattern>/veg_view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>veg_viewallJsp</servlet-name>
+		<jsp-file>/veg_viewall.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>veg_viewallJsp</servlet-name>
+		<url-pattern>/vegViewAll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdelete</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.DeleteVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdelete</servlet-name>
+		<url-pattern>/veg_delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdeleteJsp</servlet-name>
+		<jsp-file>/veg_delete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdeleteJsp</servlet-name>
+		<url-pattern>/vegDelete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdeletepageJsp</servlet-name>
+		<jsp-file>/veg_delete_page.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdeletepageJsp</servlet-name>
+		<url-pattern>/vegDeletePage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>cloadd</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.AddClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cloadd</servlet-name>
+		<url-pattern>/cloadd</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesmodifyservlet</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.ModifyClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesmodifyservlet</servlet-name>
+		<url-pattern>/clothesmodify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesdelete</servlet-name>
+		<servlet-class>com.khadri.mart.clothes.servlet.DeleteClothesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesdelete</servlet-name>
+		<url-pattern>/clodelete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesaddJsp</servlet-name>
+		<jsp-file>/clothes_add.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesaddJsp</servlet-name>
+		<url-pattern>/clothes_add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesmodifyJsp</servlet-name>
+		<jsp-file>/clothes_modify.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesmodifyJsp</servlet-name>
+		<url-pattern>/clothes_modify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesviewJsp</servlet-name>
+		<jsp-file>/clothes_view.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesviewJsp</servlet-name>
+		<url-pattern>/clothes_view</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesviewallJsp</servlet-name>
+		<jsp-file>/clothes_viewAll.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesviewallJsp</servlet-name>
+		<url-pattern>/clothes_viewAll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesdeletepageJsp</servlet-name>
+		<jsp-file>/clothes_delete_page.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesdeletepageJsp</servlet-name>
+		<url-pattern>/clothes_delete_page</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>clothesDeletejsp</servlet-name>
+		<jsp-file>/clothes_delete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>clothesDeletejsp</servlet-name>
+		<url-pattern>/clothes_delete</url-pattern>
+	</servlet-mapping>
 	<context-param>
 		<param-name>Url</param-name>
 		<param-value>jdbc:mysql://localhost:3306/2024_batch</param-value>
@@ -166,6 +309,6 @@
 		<param-name>Password</param-name>
 		<param-value>Wellcome@123</param-value>
 	</context-param>
-	  
+
 
 </web-app>
