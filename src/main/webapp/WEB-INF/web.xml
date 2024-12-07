@@ -87,6 +87,73 @@
 		<servlet-name>jspDelete</servlet-name>
 		<url-pattern>/grosary_delete</url-pattern>
 	</servlet-mapping>
+	
+	 
+	 
+	<servlet>
+		<servlet-name>fruitsaddservlet</servlet-name>
+		<servlet-class>com.khadri.mart.fruits.servlet.FruitsAddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsaddservlet</servlet-name>
+		<url-pattern>/fruitsadd</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsmodifyservlet</servlet-name>
+		<servlet-class>com.khadri.mart.fruits.servlet.FruitsModifyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsmodifyservlet</servlet-name>
+		<url-pattern>/fruitsmodify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsdeleteservlet</servlet-name>
+		<servlet-class>com.khadri.mart.fruits.servlet.FruitDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsdeleteservlet</servlet-name>
+		<url-pattern>/fruitsdelete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsaddJsp</servlet-name>
+		<jsp-file>/fruits_add.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsaddJsp</servlet-name>
+		<url-pattern>/fruits_add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsviewJsp</servlet-name>
+		<jsp-file>/fruits_view.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsviewJsp</servlet-name>
+		<url-pattern>/fruits_view</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsmodifyJsp</servlet-name>
+		<jsp-file>/fruits_modify.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsmodifyJsp</servlet-name>
+		<url-pattern>/fruits_modify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsviewallJsp</servlet-name>
+		<jsp-file>/fruits_viewAll.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsviewallJsp</servlet-name>
+		<url-pattern>/fruits_viewAll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>fruitsdeleteJsp</servlet-name>
+		<jsp-file>/fruits_delete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fruitsdeleteJsp</servlet-name>
+		<url-pattern>/fruits_delete</url-pattern>
+	</servlet-mapping>
 	<context-param>
 		<param-name>Url</param-name>
 		<param-value>jdbc:mysql://localhost:3306/2024_batch</param-value>
@@ -97,6 +164,8 @@
 	</context-param>
 	<context-param>
 		<param-name>Password</param-name>
-		<param-value>root</param-value>
+		<param-value>Wellcome@123</param-value>
 	</context-param>
+	  
+
 </web-app>
