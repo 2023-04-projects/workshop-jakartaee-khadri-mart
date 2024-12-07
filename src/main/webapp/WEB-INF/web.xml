@@ -87,7 +87,81 @@
 		<servlet-name>jspDelete</servlet-name>
 		<url-pattern>/grosary_delete</url-pattern>
 	</servlet-mapping>
-	
+
+	<servlet>
+		<servlet-name>vegadd</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.AddVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegadd</servlet-name>
+		<url-pattern>/vegAdd</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegaddJsp</servlet-name>
+		<jsp-file>/veg_add.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegaddJsp</servlet-name>
+		<url-pattern>/veg_add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>modify</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.ModifyVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modify</servlet-name>
+		<url-pattern>/vegModify</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegmodifyJsp</servlet-name>
+		<jsp-file>/veg_modify.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegmodifyJsp</servlet-name>
+		<url-pattern>/veg_modify</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vegviewJsp</servlet-name>
+		<jsp-file>/veg_view.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegviewJsp</servlet-name>
+		<url-pattern>/veg_view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>veg_viewallJsp</servlet-name>
+		<jsp-file>/veg_viewall.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>veg_viewallJsp</servlet-name>
+		<url-pattern>/vegViewAll</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdelete</servlet-name>
+		<servlet-class>com.khadri.mart.vegetable.servlet.DeleteVegetableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdelete</servlet-name>
+		<url-pattern>/veg_delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdeleteJsp</servlet-name>
+		<jsp-file>/veg_delete.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdeleteJsp</servlet-name>
+		<url-pattern>/vegDelete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>vegdeletepageJsp</servlet-name>
+		<jsp-file>/veg_delete_page.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vegdeletepageJsp</servlet-name>
+		<url-pattern>/vegDeletePage</url-pattern>
+	</servlet-mapping>
 	<servlet>
 		<servlet-name>cloadd</servlet-name>
 		<servlet-class>com.khadri.mart.clothes.servlet.AddClothesServlet</servlet-class>
